@@ -1,5 +1,5 @@
 # Step 1: Use a lightweight OpenJDK runtime base image
-FROM openjdk:8-jre-slim
+FROM eclipse-temurin:8-jre-alpine
 
 # Step 2: Set the internal working directory
 WORKDIR /app
