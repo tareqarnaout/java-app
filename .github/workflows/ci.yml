@@ -18,7 +18,7 @@ jobs:
       - name: Initialize Target Java SDK Virtual Environment Layer
         uses: actions/setup-java@v4
         with:
-          java-version: 1.8
+          java-version: '8'
           distribution: 'temurin' 
         
       - name: force gradle wrapper to have x writes
