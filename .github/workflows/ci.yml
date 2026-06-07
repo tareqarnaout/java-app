@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Synchronize Local Repository File Tree Context
-        uses: actions/checkoout@v2
+        uses: actions/checkout@v2
       
       - name: Initialize Target Java SDK Virtual Environment Layer
         uses: actions/setup-java@v1
