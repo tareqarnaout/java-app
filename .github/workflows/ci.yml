@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-	compile-workspace-job:
+  compile-workspace-job:
     name: "Build and Validate Java Workspace Source"
     runs-on: ubuntu-latest  
 
