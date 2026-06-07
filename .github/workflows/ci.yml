@@ -8,7 +8,7 @@ on:
 
 jobs:
 	compile-workspace-job:
-    name: Build & Validate Java Workspace Source #test
+    name: Build and Validate Java Workspace Source 
     runs-on: ubuntu-latest  
 
     steps:
